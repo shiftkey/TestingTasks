@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>xunit.core</id>
+    <version>2.0.0-alpha-build2552</version>
+    <title>xUnit.net [Core Library]</title>
+    <authors>James Newkirk,  Brad Wilson</authors>
+    <owners>James Newkirk,  Brad Wilson</owners>
+    <licenseUrl>http://xunit.codeplex.com/license</licenseUrl>
+    <projectUrl>http://xunit.codeplex.com/</projectUrl>
+    <iconUrl>http://download-codeplex.sec.s-msft.com/Download?ProjectName=xunit&amp;DownloadId=662625</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Includes the core unit testing framework from xUnit.net (xunit2.dll).</description>
+    <language>en-US</language>
+    <dependencies>
+      <dependency id="xunit.abstractions" version="[2.0.0-alpha-build2552]" />
+    </dependencies>
+    <references>
+      <reference file="xunit2.dll" />
+    </references>
+  </metadata>
+</package>
